@@ -19,6 +19,9 @@
 		61EF74F9254F58B400362923 /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF74F8254F58B400362923 /* HashTable.swift */; };
 		61EF74FC254F738000362923 /* PickTheRightDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF74FB254F738000362923 /* PickTheRightDataStructure.swift */; };
 		61EF7500254F7F6F00362923 /* AlgorithmsOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF74FF254F7F6F00362923 /* AlgorithmsOverview.swift */; };
+		61EF7503254F7FE800362923 /* Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF7502254F7FE800362923 /* Loops.swift */; };
+		61EF7505254F7FF900362923 /* Guard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF7504254F7FF900362923 /* Guard.swift */; };
+		61EF7507254F800700362923 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF7506254F800700362923 /* Switch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		61EF74F8254F58B400362923 /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
 		61EF74FB254F738000362923 /* PickTheRightDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTheRightDataStructure.swift; sourceTree = "<group>"; };
 		61EF74FF254F7F6F00362923 /* AlgorithmsOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsOverview.swift; sourceTree = "<group>"; };
+		61EF7502254F7FE800362923 /* Loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loops.swift; sourceTree = "<group>"; };
+		61EF7504254F7FF900362923 /* Guard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guard.swift; sourceTree = "<group>"; };
+		61EF7506254F800700362923 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				61EF74C4254F586000362923 /* SwiftyFundamentals */,
-				61EF74DE254F586200362923 /* SwiftyFundamentalsTests */,
-				61EF74E9254F586200362923 /* SwiftyFundamentalsUITests */,
-				61EF74C3254F586000362923 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,21 +105,16 @@
 				61EF74E6254F586200362923 /* SwiftyFundamentalsUITests.xctest */,
 			);
 			name = Products;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		61EF74C4254F586000362923 /* SwiftyFundamentals */ = {
 			isa = PBXGroup;
 			children = (
-				61EF74C5254F586000362923 /* AppDelegate.swift */,
-				61EF74C7254F586000362923 /* SceneDelegate.swift */,
-				61EF74CC254F586000362923 /* ContentView.swift */,
 				61EF7501254F7F7400362923 /* Algorithms */,
+				61EF7508254F800E00362923 /* ControlFlow */,
 				61EF74FA254F58BA00362923 /* DataStructures */,
-				61EF74CE254F586200362923 /* Assets.xcassets */,
-				61EF74D3254F586200362923 /* LaunchScreen.storyboard */,
-				61EF74D6254F586200362923 /* Info.plist */,
-				61EF74C9254F586000362923 /* SwiftyFundamentals.xcdatamodeld */,
-				61EF74D0254F586200362923 /* Preview Content */,
+				61EF7509254F802F00362923 /* MainApp */,
 			);
 			path = SwiftyFundamentals;
 			sourceTree = "<group>";
@@ -141,6 +139,7 @@
 		61EF74E9254F586200362923 /* SwiftyFundamentalsUITests */ = {
 			isa = PBXGroup;
 			children = (
+				61EF74C3254F586000362923 /* Products */,
 				61EF74EA254F586200362923 /* SwiftyFundamentalsUITests.swift */,
 				61EF74EC254F586200362923 /* Info.plist */,
 			);
@@ -162,6 +161,33 @@
 				61EF74FF254F7F6F00362923 /* AlgorithmsOverview.swift */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		61EF7508254F800E00362923 /* ControlFlow */ = {
+			isa = PBXGroup;
+			children = (
+				61EF7502254F7FE800362923 /* Loops.swift */,
+				61EF7504254F7FF900362923 /* Guard.swift */,
+				61EF7506254F800700362923 /* Switch.swift */,
+			);
+			path = ControlFlow;
+			sourceTree = "<group>";
+		};
+		61EF7509254F802F00362923 /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				61EF74CE254F586200362923 /* Assets.xcassets */,
+				61EF74C5254F586000362923 /* AppDelegate.swift */,
+				61EF74C9254F586000362923 /* SwiftyFundamentals.xcdatamodeld */,
+				61EF74D6254F586200362923 /* Info.plist */,
+				61EF74E9254F586200362923 /* SwiftyFundamentalsUITests */,
+				61EF74D0254F586200362923 /* Preview Content */,
+				61EF74D3254F586200362923 /* LaunchScreen.storyboard */,
+				61EF74DE254F586200362923 /* SwiftyFundamentalsTests */,
+				61EF74C7254F586000362923 /* SceneDelegate.swift */,
+				61EF74CC254F586000362923 /* ContentView.swift */,
+			);
+			path = MainApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,11 +323,14 @@
 			files = (
 				61EF74CB254F586000362923 /* SwiftyFundamentals.xcdatamodeld in Sources */,
 				61EF74C6254F586000362923 /* AppDelegate.swift in Sources */,
+				61EF7505254F7FF900362923 /* Guard.swift in Sources */,
 				61EF7500254F7F6F00362923 /* AlgorithmsOverview.swift in Sources */,
+				61EF7503254F7FE800362923 /* Loops.swift in Sources */,
 				61EF74CD254F586000362923 /* ContentView.swift in Sources */,
 				61EF74C8254F586000362923 /* SceneDelegate.swift in Sources */,
 				61EF74F9254F58B400362923 /* HashTable.swift in Sources */,
 				61EF74FC254F738000362923 /* PickTheRightDataStructure.swift in Sources */,
+				61EF7507254F800700362923 /* Switch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
