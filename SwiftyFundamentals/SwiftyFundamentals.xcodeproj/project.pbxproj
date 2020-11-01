@@ -16,6 +16,7 @@
 		61EF74D5254F586200362923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61EF74D3254F586200362923 /* LaunchScreen.storyboard */; };
 		61EF74E0254F586200362923 /* SwiftyFundamentalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF74DF254F586200362923 /* SwiftyFundamentalsTests.swift */; };
 		61EF74EB254F586200362923 /* SwiftyFundamentalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF74EA254F586200362923 /* SwiftyFundamentalsUITests.swift */; };
+		61EF74F9254F58B400362923 /* MappingAndHashing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF74F8254F58B400362923 /* MappingAndHashing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		61EF74E6254F586200362923 /* SwiftyFundamentalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyFundamentalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61EF74EA254F586200362923 /* SwiftyFundamentalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyFundamentalsUITests.swift; sourceTree = "<group>"; };
 		61EF74EC254F586200362923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61EF74F8254F58B400362923 /* MappingAndHashing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingAndHashing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				61EF74C5254F586000362923 /* AppDelegate.swift */,
 				61EF74C7254F586000362923 /* SceneDelegate.swift */,
 				61EF74CC254F586000362923 /* ContentView.swift */,
+				61EF74FA254F58BA00362923 /* DataStructures */,
 				61EF74CE254F586200362923 /* Assets.xcassets */,
 				61EF74D3254F586200362923 /* LaunchScreen.storyboard */,
 				61EF74D6254F586200362923 /* Info.plist */,
@@ -137,6 +140,14 @@
 				61EF74EC254F586200362923 /* Info.plist */,
 			);
 			path = SwiftyFundamentalsUITests;
+			sourceTree = "<group>";
+		};
+		61EF74FA254F58BA00362923 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				61EF74F8254F58B400362923 /* MappingAndHashing.swift */,
+			);
+			path = DataStructures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +285,7 @@
 				61EF74C6254F586000362923 /* AppDelegate.swift in Sources */,
 				61EF74CD254F586000362923 /* ContentView.swift in Sources */,
 				61EF74C8254F586000362923 /* SceneDelegate.swift in Sources */,
+				61EF74F9254F58B400362923 /* MappingAndHashing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
