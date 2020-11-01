@@ -111,9 +111,8 @@
 		61EF74C4254F586000362923 /* SwiftyFundamentals */ = {
 			isa = PBXGroup;
 			children = (
-				61EF7501254F7F7400362923 /* Algorithms */,
+				61EF750A254F80BB00362923 /* AlgorithmsAndDataStructures */,
 				61EF7508254F800E00362923 /* ControlFlow */,
-				61EF74FA254F58BA00362923 /* DataStructures */,
 				61EF7509254F802F00362923 /* MainApp */,
 			);
 			path = SwiftyFundamentals;
@@ -188,6 +187,15 @@
 				61EF74CC254F586000362923 /* ContentView.swift */,
 			);
 			path = MainApp;
+			sourceTree = "<group>";
+		};
+		61EF750A254F80BB00362923 /* AlgorithmsAndDataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				61EF7501254F7F7400362923 /* Algorithms */,
+				61EF74FA254F58BA00362923 /* DataStructures */,
+			);
+			path = AlgorithmsAndDataStructures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
