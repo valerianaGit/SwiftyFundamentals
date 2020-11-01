@@ -13,7 +13,7 @@
 
 import Foundation
 
-class HashTable: Hashable {
+class HashTable {
     static func == (lhs: HashTable, rhs: HashTable) -> Bool {
         return true
     }
