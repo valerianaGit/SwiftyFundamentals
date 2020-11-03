@@ -35,6 +35,7 @@ class HashTable {
     }
     
     // MARK: - MAP
+    //https://www.hackingwithswift.com/example-code/language/how-to-use-map-to-transform-an-array
     func whatIsMapAnyway() {
         
     }
