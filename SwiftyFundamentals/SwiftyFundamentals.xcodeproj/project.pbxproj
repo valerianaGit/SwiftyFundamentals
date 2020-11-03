@@ -22,6 +22,7 @@
 		61EF7503254F7FE800362923 /* Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF7502254F7FE800362923 /* Loops.swift */; };
 		61EF7505254F7FF900362923 /* Guard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF7504254F7FF900362923 /* Guard.swift */; };
 		61EF7507254F800700362923 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF7506254F800700362923 /* Switch.swift */; };
+		61EF750C2550FE7000362923 /* Palyndromes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF750B2550FE7000362923 /* Palyndromes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		61EF7502254F7FE800362923 /* Loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loops.swift; sourceTree = "<group>"; };
 		61EF7504254F7FF900362923 /* Guard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guard.swift; sourceTree = "<group>"; };
 		61EF7506254F800700362923 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		61EF750B2550FE7000362923 /* Palyndromes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palyndromes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				61EF74FF254F7F6F00362923 /* AlgorithmsOverview.swift */,
+				61EF750D2550FE7500362923 /* Strings */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -196,6 +199,14 @@
 				61EF74FA254F58BA00362923 /* DataStructures */,
 			);
 			path = AlgorithmsAndDataStructures;
+			sourceTree = "<group>";
+		};
+		61EF750D2550FE7500362923 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				61EF750B2550FE7000362923 /* Palyndromes.swift */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +349,7 @@
 				61EF74C8254F586000362923 /* SceneDelegate.swift in Sources */,
 				61EF74F9254F58B400362923 /* HashTable.swift in Sources */,
 				61EF74FC254F738000362923 /* PickTheRightDataStructure.swift in Sources */,
+				61EF750C2550FE7000362923 /* Palyndromes.swift in Sources */,
 				61EF7507254F800700362923 /* Switch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
