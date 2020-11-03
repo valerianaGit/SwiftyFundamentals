@@ -91,3 +91,37 @@ class Palyndromes {
         return input == reversedString
     }
 }
+
+/*
+ Caesar Cipher Encryptor
+ Given a non empty string of lowercase letters and a non
+ negative integer representing a key.
+ Write a function that returns a new string obtained by
+ shifting every letter
+ in the input string by k positions in
+ the alphabet, where k is the key
+
+ Letters should wrap around the alphabet**/
+//sample input
+let input = "abcd"
+let k = 3
+
+func shiftALetter(input: String, k: Int) {
+    let newString = ""
+    for i in (0..<input.count){
+       // newString.app
+    }
+}
+//practicing 
+let numbers = [1, 2, 3, 4]
+let doubled = numbers.map {$0 * 2 }
+print("\(doubled)")
+var input = "abcd"
+var new = "xz"
+let k = 3
+// should return = defg
+var alphabet = "abcdefghijklmnopqrstuvwxyz" //["a","b","c","d","e","f","g", "h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+let startIndex = alphabet.index(input.startIndex, offsetBy: k)
+let newString = input.map {$0.write(to: &new)}
+print("\(startIndex)")
+print("\(newString)")
