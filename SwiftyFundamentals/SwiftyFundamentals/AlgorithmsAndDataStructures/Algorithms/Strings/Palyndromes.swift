@@ -113,15 +113,15 @@ func shiftALetter(input: String, k: Int) {
     }
 }
 //practicing 
-let numbers = [1, 2, 3, 4]
-let doubled = numbers.map {$0 * 2 }
-print("\(doubled)")
-var input = "abcd"
-var new = "xz"
-let k = 3
-// should return = defg
-var alphabet = "abcdefghijklmnopqrstuvwxyz" //["a","b","c","d","e","f","g", "h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
-let startIndex = alphabet.index(input.startIndex, offsetBy: k)
-let newString = input.map {$0.write(to: &new)}
-print("\(startIndex)")
-print("\(newString)")
+//let numbers = [1, 2, 3, 4]
+//let doubled = numbers.map {$0 * 2 }
+//print("\(doubled)")
+//var input = "abcd"
+//var new = "xz"
+//let k = 3
+//// should return = defg
+//var alphabet = "abcdefghijklmnopqrstuvwxyz" //["a","b","c","d","e","f","g", "h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+//let startIndex = alphabet.index(input.startIndex, offsetBy: k)
+//let newString = input.map {$0.write(to: &new)}
+//print("\(startIndex)")
+//print("\(newString)")

@@ -23,6 +23,7 @@
 		61EF7505254F7FF900362923 /* Guard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF7504254F7FF900362923 /* Guard.swift */; };
 		61EF7507254F800700362923 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF7506254F800700362923 /* Switch.swift */; };
 		61EF750C2550FE7000362923 /* Palyndromes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF750B2550FE7000362923 /* Palyndromes.swift */; };
+		61EF750F25588FB300362923 /* TreesAndHeaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF750E25588FB300362923 /* TreesAndHeaps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		61EF7504254F7FF900362923 /* Guard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guard.swift; sourceTree = "<group>"; };
 		61EF7506254F800700362923 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 		61EF750B2550FE7000362923 /* Palyndromes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palyndromes.swift; sourceTree = "<group>"; };
+		61EF750E25588FB300362923 /* TreesAndHeaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesAndHeaps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			children = (
 				61EF74FB254F738000362923 /* PickTheRightDataStructure.swift */,
 				61EF74F8254F58B400362923 /* HashTable.swift */,
+				61EF75102558918800362923 /* Graphs */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -207,6 +210,14 @@
 				61EF750B2550FE7000362923 /* Palyndromes.swift */,
 			);
 			path = Strings;
+			sourceTree = "<group>";
+		};
+		61EF75102558918800362923 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				61EF750E25588FB300362923 /* TreesAndHeaps.swift */,
+			);
+			path = Graphs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +360,7 @@
 				61EF74C8254F586000362923 /* SceneDelegate.swift in Sources */,
 				61EF74F9254F58B400362923 /* HashTable.swift in Sources */,
 				61EF74FC254F738000362923 /* PickTheRightDataStructure.swift in Sources */,
+				61EF750F25588FB300362923 /* TreesAndHeaps.swift in Sources */,
 				61EF750C2550FE7000362923 /* Palyndromes.swift in Sources */,
 				61EF7507254F800700362923 /* Switch.swift in Sources */,
 			);
