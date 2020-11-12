@@ -38,10 +38,10 @@ Anytime that you would need quick access to the maximum/minimum item, a heap is 
 Heaps are also the base of the heapsort algorithm.**/
 
 //MARK: - min-heap ->
-// each node has the property that its value is bigger or equal to its parent’s value
+// root vaue is smallest of its children
 
 //MARK: - max-heap ->
-// opposite to min heap
+// root vaue is largest of its children
 
 //MARK: -  binary heap ->
 // is a complete binary tree (all its levels are filled, except maybe for the last level)

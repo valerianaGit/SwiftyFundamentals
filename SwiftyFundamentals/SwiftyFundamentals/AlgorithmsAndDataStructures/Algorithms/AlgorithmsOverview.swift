@@ -10,3 +10,25 @@
 // https://github.com/raywenderlich/swift-algorithm-club
 
 import Foundation
+
+// Solve iteratively vs recursively
+
+func iterativeFactorialOf(value: Int) -> Int {
+    if value == 0 {
+        return 1
+    }
+    var product = 1
+    for i in 1...value {
+        product = product * i
+    }
+    return product
+}
+func recursiveFactorialOf(value: Int)-> Int {
+    if value == 0 {
+        return 1
+    }
+    return value * recursiveFactorialOf(value: value - 1)
+}
+
+
+//recursiveFactorialOf(value: 2)
